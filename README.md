@@ -12,6 +12,8 @@ Jailbreaking iOS 15 and higher is a more difficult task because of the new seale
 
 - fakefs only gets created if using semi-tethered mode, disadvantage with semi-tethered mode is that the jailbreak will be rootless.
 
+- Running the jailbreak in tethered mode skips the fakefs, renames your normal fs so it doesn't reset on reboots, iOS 15 prevents this but utilizing checkm8 we can boot a dev kernel tethered.
+
 ### Issues with A10 and A11 devices
 
 - Passcode must be disabled before jailbreaking or entering a jailbroken state.
